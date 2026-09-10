@@ -1,32 +1,30 @@
-# Family Zoo — v09 — Readable Objects
+# Family Zoo — v09: Readable Objects
 
-Plaques, warning signs, and a take-away brochure give the zoo readable text. Separates what an object looks like from what it actually says.
+A plaque in the aviary. READ is its own action, distinct from EXAMINE, and a phrase block lets the text be laid out the way a sign really reads.
 
-Step 9 of the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial — a progressive walkthrough of the [Sharpee](https://sharpee.net) TypeScript interactive fiction engine, from a single room to a full multi-file story.
+Step 9 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial for [Chord](https://sharpee.net/chord/), the authoring language of the [Sharpee](https://sharpee.net) interactive fiction engine.
 
-## What this step teaches
+## What this step adds
 
-- ReadableTrait with its own text field
-- Clear split between examine and read verbs
-- Scenery plaques you can read but not take
-- Portable readables like brochures, letters, and books
-- Guidance on when to use ReadableTrait vs. a long description
+- `readable` alongside `scenery`
+- `on the player reading` versus the plain description
+- A `phrase` block holding multi-paragraph sign text
+- Why READ and EXAMINE should say different things
 
-## Playing
+## The source
 
-Open `play.html`, or preview the folder:
+The whole step is one file: [`familyzoo-v09.story`](./familyzoo-v09.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v09-readable-objects.md`](./docs/v09-readable-objects.md).
 
-```bash
-python -m http.server 8000 --directory familyzoo-v09
-```
-
-## Building
-
-This is a **frozen 0.9.x TypeScript version**. The built player in this folder is the published artifact; it is re-laid from `browser/` by the workspace build:
+## Playing and testing
 
 ```bash
-python ../tools/build.py familyzoo-v09
-python C:/code/ifhub/tools/ship.py familyzoo-v09
+npx sharpee play
+npx sharpee test          # replays familyzoo-v09.tests.json
+python ../tools/build.py familyzoo-v09 --force
 ```
 
-The authoring tree for every version lives in the [familyzoo](https://github.com/Johnesco/familyzoo) repo.
+## Engine
+
+Pinned to `@sharpee/*` **5.3.0** (Chord 3.6.0), held there by an `overrides` block: 5.3.1 publishes broken subpath exports and breaks `sharpee test`.
+
+The 0.9.x TypeScript edition this replaced is kept in [`legacy/`](./legacy).

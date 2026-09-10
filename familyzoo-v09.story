@@ -3,7 +3,7 @@ story
   authors:
     John Googol
   id: familyzoo-v09
-  ifid: D6F15F61-2EB7-4DF9-87EC-F05CE86CFF0D
+  ifid: 38D86C84-A8B5-4C6A-9E87-4D4F4D52FA2B
   story-version: 0.0.2
   description: Sharpee tutorial step 9 — `readable` and verbatim phrase blocks.
 
@@ -43,19 +43,17 @@ create the Petting Zoo
   a room
   aka petting area, pen
 
-  A cheerful open-air enclosure that smells of warm hay and fur. A feed
-  dispenser is mounted on a post, and an info plaque is posted by the
-  gate. The main path is back to the west.
+  A cheerful open-air enclosure that smells of warm hay and fur. The
+  main path is back to the west.
 
 create the Aviary
   a room
   aka bird house, dome
 
-  You step inside a soaring mesh dome. Brilliantly colored parrots
-  chatter from rope perches, and a toucan eyes you curiously from a
-  branch overhead. A small waterfall splashes into a stone basin. An
-  info plaque hangs near the entrance. The gift shop is to the west. The
-  main path is back to the east.
+  You step inside a soaring mesh dome. A toucan eyes you curiously from a
+  branch overhead, and rope perches crisscross the space. A small
+  waterfall splashes into a stone basin. A plaque hangs near the
+  entrance. The main path is back to the east.
 
 create the Supply Room
   a room
@@ -64,8 +62,8 @@ create the Supply Room
   north is blocked while the staff gate is closed: staff-gate-blocked
 
   A cluttered storage room behind the staff gate. Metal shelves line the
-  walls. A cork board on the wall is covered with staff schedules. A
-  battered radio sits on one of the shelves. The staff gate leads back
+  walls. A cork board on the wall is covered with staff schedules. The
+  staff gate leads back north.
   north.
 
 create the Nocturnal Animals Exhibit
@@ -212,22 +210,6 @@ create the cork board
 
   A cork board with staff schedules. A note in red marker: "DON'T
   FORGET: nocturnal exhibit lights need new batteries!"
-
-create the info plaque
-  aka plaque, brass plaque
-  scenery, readable
-  in the Petting Zoo
-
-  A brass plaque mounted on a wooden post near the petting zoo gate.
-
-  on the player reading
-    phrase plaque-text
-      PYGMY GOATS — These Nigerian Dwarf goats are gentle, curious, and
-      always hungry.
-
-      HOLLAND LOP RABBITS — Known for their floppy ears. Our pair,
-      Biscuit and Marmalade, were born here in 2023.
-  end on
 
 create the aviary plaque
   aka information board

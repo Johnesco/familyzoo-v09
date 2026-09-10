@@ -53,7 +53,7 @@
       "assertions": {
         "contains": [
           "Petting Zoo",
-          "A cheerful open-air enclosure that smells of warm hay and fur. A feed dispenser is mounted"
+          "A cheerful open-air enclosure that smells of warm hay and fur. The main path is back to th"
         ]
       }
     },
@@ -62,8 +62,7 @@
       "command": "read info plaque",
       "assertions": {
         "contains": [
-          "PYGMY GOATS — These Nigerian Dwarf goats are gentle, curious, and always hungry.",
-          "HOLLAND LOP RABBITS — Known for their floppy ears. Our pair, Biscuit and Marmalade, were b"
+          "You can't see any such thing."
         ]
       }
     }
