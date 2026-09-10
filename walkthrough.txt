@@ -1,17 +1,4 @@
-take brochure
-read brochure
-examine brochure
+read zoo brochure
 south
 east
-read plaque
-west
-west
-read plaque
-east
-north
-take keycard
-south
-unlock gate with keycard
-open gate
-south
-read warning
+read info plaque

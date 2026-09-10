@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "story": "familyzoo-v09",
+  "seed": 42,
+  "cards": [
+    {
+      "type": "opening",
+      "assertions": {
+        "channels": [
+          {
+            "id": "info.title",
+            "is": "Family Zoo (v09 — Readable Objects)"
+          },
+          {
+            "id": "info.description",
+            "is": "Sharpee tutorial step 9 — `readable` and verbatim phrase blocks."
+          }
+        ]
+      }
+    },
+    {
+      "type": "boot",
+      "assertions": {
+        "contains": [
+          "Zoo Entrance",
+          "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "read zoo brochure",
+      "assertions": {
+        "contains": [
+          "(first taking the zoo brochure)",
+          "Taken."
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "south",
+      "assertions": {
+        "contains": [
+          "Main Path",
+          "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "east",
+      "assertions": {
+        "contains": [
+          "Petting Zoo",
+          "A cheerful open-air enclosure that smells of warm hay and fur. A feed dispenser is mounted"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "read info plaque",
+      "assertions": {
+        "contains": [
+          "PYGMY GOATS — These Nigerian Dwarf goats are gentle, curious, and always hungry.",
+          "HOLLAND LOP RABBITS — Known for their floppy ears. Our pair, Biscuit and Marmalade, were b"
+        ]
+      }
+    }
+  ]
+}
