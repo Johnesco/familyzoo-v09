@@ -1,10 +1,6 @@
 {
-  "version": 1,
-  "story": "familyzoo-v09",
-  "seed": 42,
   "cards": [
     {
-      "type": "opening",
       "assertions": {
         "channels": [
           {
@@ -16,55 +12,63 @@
             "is": "Sharpee tutorial step 9 — `readable` and verbatim phrase blocks."
           }
         ]
-      }
+      },
+      "id": "jgr6nwbi",
+      "type": "opening"
     },
     {
-      "type": "boot",
       "assertions": {
         "contains": [
           "Zoo Entrance",
           "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
         ]
-      }
+      },
+      "id": "gf114j2n",
+      "type": "boot"
     },
     {
-      "type": "turn",
-      "command": "read zoo brochure",
       "assertions": {
         "contains": [
           "(first taking the zoo brochure)",
           "Taken."
         ]
-      }
+      },
+      "command": "read zoo brochure",
+      "id": "wi1l21rr",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "south",
       "assertions": {
         "contains": [
           "Main Path",
           "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
         ]
-      }
+      },
+      "command": "south",
+      "id": "hw4x20xd",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "east",
       "assertions": {
         "contains": [
           "Petting Zoo",
           "A cheerful open-air enclosure that smells of warm hay and fur. The main path is back to th"
         ]
-      }
+      },
+      "command": "east",
+      "id": "evm1u22e",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "read info plaque",
       "assertions": {
         "contains": [
           "You can't see any such thing."
         ]
-      }
+      },
+      "command": "read info plaque",
+      "id": "pz5l572c",
+      "type": "turn"
     }
-  ]
+  ],
+  "id": "x8xh1qzf"
 }
