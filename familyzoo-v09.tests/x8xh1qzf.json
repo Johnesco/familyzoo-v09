@@ -11,20 +11,14 @@
             "id": "info.description",
             "is": "Sharpee tutorial step 9 — `readable` and verbatim phrase blocks."
           }
-        ]
-      },
-      "id": "jgr6nwbi",
-      "type": "opening"
-    },
-    {
-      "assertions": {
+        ],
         "contains": [
           "Zoo Entrance",
           "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
         ]
       },
-      "id": "gf114j2n",
-      "type": "boot"
+      "id": "jgr6nwbi",
+      "type": "opening"
     },
     {
       "assertions": {
